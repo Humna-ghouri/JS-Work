@@ -33,48 +33,8 @@ for (let i = 0; i < studentNames.length; i++) {
 
 
 
-// Initialize an array with color names
-var colors = ["red", "green", "blue"];
-
-// Display the array elements
-console.log("Array elements:", colors);
-
-// Ask the user what color to add to the beginning & add it
-var colorToAddBeginning = prompt("Enter a color to add to the beginning:");
-colors.unshift(colorToAddBeginning);
-console.log("After adding color to the beginning:", colors);
-
-// Ask the user what color to add to the end & add it
-var colorToAddEnd = prompt("Enter a color to add to the end:");
-colors.push(colorToAddEnd);
-console.log("After adding color to the end:", colors);
-
-// Add two more colors to the beginning
-colors.unshift("yellow", "orange");
-console.log("After adding two colors to the beginning:", colors);
-
-// Delete the first color
-colors.shift();
-console.log("After deleting the first color:", colors);
-
-// Delete the last color
-colors.pop();
-console.log("After deleting the last color:", colors);
-
-// Ask the user at which index to add a color & color name, then add the color at the desired position/index
-let indexToAdd = parseInt(prompt("Enter the index where you want to add a color:"));
-let colorToAdd = prompt("Enter the color you want to add:");
-colors.splice(indexToAdd, 0, colorToAdd);
-console.log("After adding color at index " + indexToAdd + ":", colors);
-
-// Ask the user at which index to delete color(s) & how many colors to delete, then remove the same number of color(s) from the user-defined position/index
-let indexToDelete = parseInt(prompt("Enter the index from which you want to delete color(s):"));
-let numberOfColorsToDelete = parseInt(prompt("Enter how many colors you want to delete:"));
-colors.splice(indexToDelete, numberOfColorsToDelete);
-
-
-
-
+// 09 start
+// 09 end 
 
 
 
