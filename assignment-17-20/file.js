@@ -77,14 +77,13 @@ for (let i=0; i <=20 ; i+=2){
     }
     console.log("c. Even: " + Even.slice(0,-2) );
 
-    // d. odd numbers 
+    
     prompt("enter your name")
     for (let i= 1; i<=19; i+=2){
         Odd +=i + ",";
     }
     console.log("d.Odd: + Odd.slice (0,-2");
 
-    // e. Series
     for (let i= 1; i<=10; i++) {
         Series += (2*i) + "k," ;
 

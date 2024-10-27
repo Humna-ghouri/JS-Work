@@ -12,7 +12,7 @@ var visited = 3 ;
 
 
 // 03 start 
- var birthYear = 1990;  // Replace 1990 with your actual birth year
+ var birthYear = 1990; 
         document.write("My birth year is " + birthYear + "<br>");
        document.write("Data type of my declared variable is " + typeof(birthYear));
 
@@ -22,9 +22,9 @@ var visited = 3 ;
 
         // 04 start
          // Declare and assign variables
-        //  var visitorName = "John Doe"; // Example visitor's name
-        //  var productTitle = "T-shirt"; // Example product title
-        //  var quantity = 5; // Example quantity
+        //  var visitorName = "John Doe"; 
+        //  var productTitle = "T-shirt"; 
+        //  var quantity = 5; 
 
         
 

@@ -2,10 +2,10 @@
 // /01
 // var number2 = parseFloat(prompt("Enter the first number:"));
 
-        // Add the two numbers
+      
         var sum = number1 + number2;
 
-        // Display the result in the browser
+       
         document.write("The sum of " + number1 + " and " + number2 + " is " + sum);
 
 
@@ -73,13 +73,10 @@ document.write("The modulus of " + number1 + " and " + number2 + " is " + modulu
   // Cost of one movie ticket (in PKR)
   var ticketPrice = 600;
 
-  // Number of tickets to buy
   var numberOfTickets = 5;
 
-  // Calculate the total cost
   var totalCost = ticketPrice * numberOfTickets;
 
-  // Display the result in the browser
   document.write("The cost of buying " + numberOfTickets + " movie tickets is: " + totalCost + " PKR");
 
 
@@ -88,7 +85,6 @@ document.write("The modulus of " + number1 + " and " + number2 + " is " + modulu
   // Prompt the user to enter a number
   var number = parseInt(prompt("Enter a number to display its multiplication table:"));
 
-  // Display the multiplication table in the browser
   document.write("<h2>Multiplication Table of " + number + "</h2>");
   for (var i = 1; i <= 10; i++) {
       document.write(number + " × " + i + " = " + (number * i) + "<br>");
@@ -97,42 +93,31 @@ document.write("The modulus of " + number1 + " and " + number2 + " is " + modulu
 
 
 //   06
- // Celsius temperature
  var celsiusTemperature = 30;
 
- // Convert Celsius to Fahrenheit
  var fahrenheitTemperature = (celsiusTemperature * 9 / 5) + 32;
 
- // Output the result
  document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F<br>");
 
- // Fahrenheit temperature
  var fahrenheitTemp = 86;
 
- // Convert Fahrenheit to Celsius
  var celsiusTemp = (fahrenheitTemp - 32) * 5 / 9;
 
- // Output the result
  document.write(fahrenheitTemp + "°F is " + celsiusTemp + "°C");
 
 
 
 //  07
- // Store the prices of item 1 and item 2
  var item1Price = 500;
  var item2Price = 700;
 
- // Store the ordered quantities of item 1 and item 2
  var item1Quantity = 2;
  var item2Quantity = 3;
 
- // Store the shipping charges
  var shippingCharges = 100;
 
- // Calculate the total cost
  var totalCost = (item1Price * item1Quantity) + (item2Price * item2Quantity) + shippingCharges;
 
- // Display the receipt in the browser
  document.write("<h2>Shopping Cart Receipt</h2>");
  document.write("<p>Price of Item 1: " + item1Price + " PKR</p>");
  document.write("<p>Quantity of Item 1: " + item1Quantity + "</p>");
@@ -147,10 +132,8 @@ document.write("The modulus of " + number1 + " and " + number2 + " is " + modulu
  var totalMarks = 500;
  var marksObtained = 425;
 
- // Calculate the percentage
  var percentage = (marksObtained / totalMarks) * 100;
 
- // Display the result in the browser
  document.write("<h2>Percentage Calculation</h2>");
  document.write("<p>Total Marks: " + totalMarks + "</p>");
  document.write("<p>Marks Obtained: " + marksObtained + "</p>");
@@ -185,10 +168,8 @@ document.write("<h3>Total amount in Pakistani Rupees: " + totalPkr.toFixed(2) + 
 // Initialize a variable with some number
 var num = 10;
 
-// Perform arithmetic operations in a single expression
 var result = ((num + 5) * 10) / 2;
 
-// Display the result in the browser
 document.write("<h2>Arithmetic Sequence</h2>");
 document.write("<p>Initial Number: " + num + "</p>");
 document.write("<p>Result after arithmetic operations: " + result + "</p>");
@@ -200,7 +181,6 @@ document.write("<p>Result after arithmetic operations: " + result + "</p>");
  var currentYear = new Date().getFullYear();
  var birthYear = 1990; // Replace with actual birth year
 
- // Calculate their possible ages
  var age1 = currentYear - birthYear;
  var age2 = age1 - 1;
 
@@ -215,7 +195,6 @@ document.write("<p>Result after arithmetic operations: " + result + "</p>");
 // Store the radius into a variable
 var radius = 5;
 
-// Calculate the circumference and area
 var circumference = 2 * Math.PI * radius;
 var area = Math.PI * Math.pow(radius, 2);
 
@@ -233,11 +212,9 @@ document.write("The area is " + area.toFixed(2));
   var maxAge = 80;
   var amountPerDay = 2;
 
-  // Calculate the total amount needed for the rest of your life
   var yearsRemaining = maxAge - currentAge;
   var totalAmountNeeded = yearsRemaining * 365 * amountPerDay;
 
-  // Display the result in the browser
   document.write("<h2>Lifetime Supply Calculator</h2>");
   document.write("You will need " + totalAmountNeeded + " " + favoriteSnack + "(s) to last you until the ripe old age of " + maxAge);
 

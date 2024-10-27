@@ -1,18 +1,14 @@
 // 1.
 // function displayCurrentDateTime() {
-//     // Get current date/time
 //     var currentDateTime = new Date();
 
-//     // Format date and time components
 //     var date = currentDateTime.toLocaleDateString(); // Get date in local format
 //     var time = currentDateTime.toLocaleTimeString(); // Get time in local format
 
-//     // Display in browser
 //     var dateTimeString = `Current Date: ${date}<br>Current Time: ${time}`;
 //     document.getElementById('dateTimeDisplay').innerHTML = dateTimeString;
 // }
 
-// // Example usage: Call the function to display current date and time
 // displayCurrentDateTime();
 
 alert("hbgshbsd")
@@ -22,7 +18,6 @@ alert("hbgshbsd")
 //     console.log('Hello, ' + fullName + '! Welcome!');
 // }
 
-// // Example usage:
 // var firstName = prompt('Enter your first name:');
 // var lastName = prompt('Enter your last name:');
 
@@ -31,10 +26,8 @@ alert("hbgshbsd")
 
 // 3.
 // function addNumbers() {
-//     // Prompt the user to enter the first number
 //     var num1 = parseFloat(prompt("Enter the first number:"));
     
-//     // Prompt the user to enter the second number
 //     var num2 = parseFloat(prompt("Enter the second number:"));
     
 //     var sum = num1 + num2;
@@ -81,7 +74,6 @@ alert("hbgshbsd")
 // var num2 = parseFloat(prompt("Enter the second number:"));
 // var operator = prompt("Enter the operator (+, -, *, /):");
 
-// // Call the function with the input values
 // var result = calculate(num1, num2, operator);
 
 // document.write(`<h2>Result: ${num1} ${operator} ${num2} = ${result}</h2>`);
@@ -117,7 +109,6 @@ alert("hbgshbsd")
 
 // 7.
 // function countNumbers(start, end) {
-//     // Validate inputs: ensure start and end are integers
 //     start = parseInt(start);
 //     end = parseInt(end);
 
@@ -141,7 +132,6 @@ alert("hbgshbsd")
 // var startNum = prompt("Enter the start number:");
 // var endNum = prompt("Enter the end number:");
 
-// // Call the function with the input values
 // countNumbers(startNum, endNum);
 
 
@@ -159,7 +149,6 @@ alert("hbgshbsd")
     
 //     var hypotenuse = Math.sqrt(hypotenuseSquare);
     
-//     // Return the hypotenuse
 //     return hypotenuse;
 // }
 
@@ -200,7 +189,6 @@ alert("hbgshbsd")
 
 // 10.
 // function isPalindrome(str) {
-//     // Remove non-alphanumeric characters and convert to lowercase
 //     var cleanedStr = str.toLowerCase().replace(/[\W_]/g, '');
 
 //     return cleanedStr === cleanedStr.split('').reverse().join('');

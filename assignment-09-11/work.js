@@ -57,13 +57,13 @@ if (remainingFuel < 0.25) {
 var a = 4;
 if (++a === 5){
     alert("given condition for variable a is true");
-} // Output: "given condition for variable a is true"
+} 
 
 // b.
 var b = 82;
 if (b++ === 83){
     alert("given condition for variable b is true");
-} // No output
+} 
 
 // c.
 var c = 12;
@@ -72,13 +72,13 @@ if (c++ === 13){
 }
 if (c === 13){
     alert("condition 2 is true");
-} // Output: "condition 2 is true"
+} 
 if (++c < 14){
     alert("condition 3 is true");
 }
 if(c === 14){
     alert("condition 4 is true");
-} // Output: "condition 4 is true"
+}
 
 // d.
 var materialCost = 20000;
@@ -86,20 +86,20 @@ var laborCost = 2000;
 var totalCost = materialCost + laborCost;
 if (totalCost === laborCost + materialCost){
     alert("The cost equals");
-} // Output: "The cost equals"
+} 
 
 // e.
 if (true){
     alert("True");
-} // Output: "True"
+} 
 if (false){
     alert("False");
-} // No output
+} 
 
 // f.
 if("car" < "cat"){
     alert("car is smaller than cat");
-} // Output: "car is smaller than cat"
+} 
 
 
 
@@ -129,20 +129,16 @@ function calculateGrade(percentage) {
     return { grade, remarks };
 }
 
-// Taking input from the user
 const subject1 = parseFloat(prompt("Enter marks obtained in Subject 1:"));
 const subject2 = parseFloat(prompt("Enter marks obtained in Subject 2:"));
 const subject3 = parseFloat(prompt("Enter marks obtained in Subject 3:"));
 const totalMarks = parseFloat(prompt("Enter total marks:"));
 
-// Calculate marks obtained and percentage
 const marksObtained = subject1 + subject2 + subject3;
 const percentage = (marksObtained / totalMarks) * 100;
 
-// Get grade and remarks
 const { grade, remarks } = calculateGrade(percentage);
 
-// Display the result
 alert(`
     Total Marks: ${totalMarks}
     Marks Obtained: ${marksObtained}
@@ -151,10 +147,8 @@ alert(`
     Remarks: ${remarks}
 `);
 
-
 // 
 
-// Guess game: Store a secret number and prompt user to guess
 let secretNumber = Math.floor(Math.random() * 10) + 1;  // Secret number between 1 and 10
 let userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
 
@@ -167,8 +161,6 @@ if (userGuess === secretNumber) {
 }
 
 
-// 
-// Program to check whether the given number is divisible by 3
 let number = parseInt(prompt("Enter a number:"));
 
 if (number % 3 === 0) {

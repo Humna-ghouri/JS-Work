@@ -1,5 +1,4 @@
 // Chapter # 04
-// Legal & Illegal Variable
 
 //Question-1
 let jack = 5 , john = 10 , saim = 40;
